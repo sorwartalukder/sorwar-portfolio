@@ -4,7 +4,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 const Card = ({ cardData }) => {
     const { title, type, liveLink, clientLink, serverLink, img } = cardData;
     return (
-        <div className="card max-w-[400px] h-full">
+        <div className="card max-w-[400px] h-full shadow-xl  bg-black">
             <PhotoProvider >
                 <PhotoView src={img}>
                     <img src={img} alt="Shoes" className="rounded-xl h-[300px]" />

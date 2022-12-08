@@ -4,7 +4,7 @@ import aboutPhoto from '../../assets/Images/sorwar-about.jpg'
 
 const About = () => {
     return (
-        <div className="hero min-h-screen bg-base-200 mb-9 ">
+        <div className="hero min-h-screen  mb-9 ">
             <div className="hero-content flex-col lg:flex-row">
                 <PhotoProvider >
                     <PhotoView src={aboutPhoto}>

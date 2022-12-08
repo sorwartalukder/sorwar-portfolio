@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import profilePic from '../assets/Images/sorwar.png'
+import './Main.css'
 
 const Main = () => {
     return (
         <div>
-            <div className="navbar bg-black lg:w-[320Px]">
+            <div className="navbar port-bg lg:w-[320Px]" >
                 <label tabIndex={0}
                     htmlFor="my-drawer-2"
                     className="btn btn-ghost lg:hidden">
@@ -19,7 +20,7 @@ const Main = () => {
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 bg-black text-white text-lg">
+                    <ul className="menu p-4 w-80 port-bg text-white text-lg">
                         <li>
                             <div className="avatar bg-stone-200">
                                 <div className="w-60 rounded-full">
@@ -38,6 +39,9 @@ const Main = () => {
                         </li>
                         <li className='mx-auto text-xl'>
                             <Link to='/projects'>Projects</Link>
+                        </li>
+                        <li className='mx-auto text-xl'>
+                            <Link to='/contact'>Contact</Link>
                         </li>
                     </ul>
 

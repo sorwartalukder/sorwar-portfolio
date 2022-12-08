@@ -3,9 +3,9 @@
  * React router bom
  * Tailwind
  * DaisyUI
- * 
- * 
- * 
+ * React hook form
+ * React icons
+ * React hot toast
  * 
  * 
  * 
