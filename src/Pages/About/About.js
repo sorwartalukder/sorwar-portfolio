@@ -32,9 +32,7 @@ const About = () => {
                         </div>
 
                     </div>
-                    <a href="https://drive.google.com/file/d/1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko/view?usp=share_link"
-                        target='_blank'
-                        rel="noreferrer"
+                    <a href="https://drive.google.com/u/0/uc?id=1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko&export=download"
                     >
                         <button className="bg-blue-700 hover:bg-purple-900 text-white text-xl px-6 py-4">Download Resume</button>
                     </a>

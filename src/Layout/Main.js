@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaDownload } from 'react-icons/fa';
 import { Link, Outlet } from 'react-router-dom';
 import profilePic from '../assets/Images/sorwar.png'
 import './Main.css'
@@ -42,6 +43,12 @@ const Main = () => {
                         </li>
                         <li className='mx-auto text-xl'>
                             <Link to='/contact'>Contact</Link>
+                        </li>
+                        <li className='mx-auto text-xl'>
+                            <a href="https://drive.google.com/u/0/uc?id=1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko&export=download"
+                            >
+                                Download Resume <FaDownload />
+                            </a>
                         </li>
                     </ul>
 

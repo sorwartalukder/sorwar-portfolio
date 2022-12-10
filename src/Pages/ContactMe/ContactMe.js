@@ -1,26 +1,15 @@
-import { format } from 'date-fns';
+import emailjs from 'emailjs-com';
 import React from 'react';
-import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
 
 const ContactMe = () => {
-    const { register, formState: { errors }, handleSubmit } = useForm();
-    const currentDate = new Date();
-    const date = format(currentDate, 'PP');
-    const time = (currentDate.getHours() + ':' + currentDate.getMinutes())
-
-    const handleContact = data => {
-        const contact = {
-            name: data.name,
-            email: data.email,
-            subject: data.subject,
-            message: data.message,
-            sender: 'PortFolio',
-            date,
-            time
-        }
-        console.log(contact)
+    const handleContact = e => {
+        e.preventDefault()
+        emailjs.sendForm('mD.sorwaR4039', 'template_1368kvf', e.target, 'S4ou50DBMf_kQTmhl')
+        e.target.reset()
+        toast.success(`Mail send successfully.`)
 
     }
     return (
@@ -29,19 +18,17 @@ const ContactMe = () => {
             <div className='xl:flex justify-center items-center mx-4'>
                 <form
                     className='xl:w-1/2  max-w-[600px] mx-auto'
-                    onSubmit={handleSubmit(handleContact)}>
+                    onSubmit={handleContact}>
                     {/* name  */}
                     <div className="form-control w-full ">
                         <label className="label"><span className="label-text">Your Name</span></label>
                         <input
                             type="text"
+                            name='name'
+                            required
                             placeholder="Enter Your Name"
-                            className="input input-bordered w-full "
-                            {...register("name", {
-                                required: 'Name is required'
-                            })}
+                            className="input input-bordered w-full"
                         />
-                        {errors.name && <p className='text-red-600'>{errors.name?.message}</p>}
                     </div>
                     {/* email  */}
                     <div className="form-control w-full ">
@@ -50,11 +37,9 @@ const ContactMe = () => {
                             type="email"
                             placeholder="Enter Your Email"
                             className="input input-bordered w-full "
-                            {...register("email", {
-                                required: 'Email is required'
-                            })}
+                            name='email'
+                            required
                         />
-                        {errors.email && <p className='text-red-600'>{errors.email?.message}</p>}
                     </div>
                     {/* Subject line  */}
                     <div className="form-control w-full ">
@@ -63,11 +48,9 @@ const ContactMe = () => {
                             type="text"
                             placeholder="Enter Your Subject"
                             className="input input-bordered w-full "
-                            {...register("subject", {
-                                required: 'Subject is required'
-                            })}
+                            name='subject'
+                            required
                         />
-                        {errors.subject && <p className='text-red-600'>{errors.subject?.message}</p>}
                     </div>
 
                     {/* Message */}
@@ -77,12 +60,10 @@ const ContactMe = () => {
                             className="textarea textarea-bordered"
                             rows="8"
                             placeholder="Enter Your Message"
-                            {...register("message", {
-                                required: 'Message is required'
-
-                            })}
+                            name='message'
+                            required
                         ></textarea>
-                        {errors.message && <p className='text-red-600'>{errors.message?.message}</p>}
+
                     </div>
 
                     <input className="bg-blue-700 hover:bg-purple-900 text-white text-xl px-6 py-4 mt-5" value='Send Mail' type="submit" />
