@@ -21,7 +21,7 @@ const Card = ({ project }) => {
                         target='_blank'
                         rel="noreferrer"
                     >
-                        <button className="bg-blue-700 hover:bg-purple-900 px-7 py-1">Live</button>
+                        <button className="bg-blue-700 hover:bg-purple-900 px-7 py-1 ">Live</button>
                     </a>
                 </div>
                 <p className='text-xl'>{projectType}</p>

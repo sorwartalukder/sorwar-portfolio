@@ -9,7 +9,7 @@ const ProjectDetails = () => {
         <div>
             <div className=" max-w-[900px] mx-auto  py-10 px-6 md:px-10">
                 <PhotoProvider>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mb-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 bg-black p-6 cursor-pointer'>
                         {
                             gallery.map((img, i) => <PhotoView
                                 key={i}

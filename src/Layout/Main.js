@@ -26,7 +26,7 @@ const Main = () => {
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 port-bg text-white text-lg">
                         <li>
-                            <div className="avatar bg-stone-200">
+                            <div className="avatar">
                                 <div className="w-60 rounded-full">
                                     <img
                                         className='bg-black p-4 rounded-full'
@@ -35,30 +35,31 @@ const Main = () => {
                             </div>
                         </li>
 
-                        <li className='mt-28 mx-auto text-xl'>
-                            <Link to='/'>Home</Link>
+                        <li className='mt-16  text-xl'>
+                            <Link className='block text-center' to='/'>Home</Link>
                         </li>
 
-                        <li className='mx-auto text-xl'>
-                            <Link to='/projects'>Projects</Link>
+                        <li className='text-xl'>
+                            <Link className='block text-center' to='/projects'>Projects</Link>
                         </li>
-                        <li className='mx-auto text-xl'>
-                            <Link to='/blogs'>Blogs</Link>
+                        <li className='text-xl'>
+                            <Link className='block text-center' to='/blogs'>Blogs</Link>
                         </li>
-                        <li className='mx-auto text-xl'>
-                            <Link to='/about'>About</Link>
+                        <li className='text-xl'>
+                            <Link className='block text-center' to='/about'>About</Link>
                         </li>
-                        <li className='mx-auto text-xl'>
-                            <Link to='/contact'>Contact</Link>
+                        <li className='text-xl'>
+                            <Link className='block text-center' to='/contact'>Contact</Link>
                         </li>
                         {
-                            user?.email === 'mdsorwar4039@gmail.com' && <li className='mx-auto text-xl'>
-                                <Link to='/dashboard/add-project'>Dashboard</Link>
+                            user?.email === 'mdsorwar4039@gmail.com' && <li className=' text-xl'>
+                                <Link className='block text-center' to='/dashboard/add-project'>Dashboard</Link>
                             </li>
                         }
-                        <li className='mx-auto text-xl'>
+                        <li className='text-xl'>
                             <a href="https://drive.google.com/u/0/uc?id=1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko&export=download"
                                 download='Resume'
+                                className='pl-11'
                             >
                                 Download Resume <FaDownload />
                             </a>
