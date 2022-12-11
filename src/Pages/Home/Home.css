@@ -1,0 +1,27 @@
+.name {
+    color: rgba(30, 30, 248, 0.911);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 8px solid rgba(30, 30, 248, 0.911);
+    border-bottom-right-radius: 5px;
+    animation: typing 6s steps(22) infinite;
+}
+
+
+@keyframes typing {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 22ch;
+    }
+
+    60% {
+        width: 22ch;
+    }
+
+    100% {
+        width: 0ch;
+    }
+}

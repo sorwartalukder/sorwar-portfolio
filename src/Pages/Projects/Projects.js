@@ -1,14 +1,28 @@
+import { useQuery } from '@tanstack/react-query';
 import React from 'react';
-import CakeAndCraft from './CakeAndCraft/CakeAndCraft';
-import CodeSkill from './CodeSkill/CodeSkill';
-import UsedPhone from './UsedPhone/UsedPhone';
+import Loading from '../../componnets/Loading/Loading';
+import Card from './Card/Card';
 
 const Projects = () => {
+    const { data: projects = [], isLoading } = useQuery({
+        queryKey: ['categoryProducts'],
+        queryFn: async () => {
+            const res = await fetch(`https://sorwar-portfolio-server.vercel.app/projects`);
+            const data = res.json();
+            return data
+        }
+    })
+    if (isLoading) {
+        return <Loading />
+    }
     return (
-        <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-5  mx-9 my-10'>
-            <UsedPhone />
-            <CakeAndCraft />
-            <CodeSkill />
+        <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-5  mx-9 mb-10'>
+            {
+                projects.map(project => <Card
+                    key={project._id}
+                    project={project}
+                />)
+            }
         </div>
     );
 };

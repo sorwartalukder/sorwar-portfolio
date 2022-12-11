@@ -3,13 +3,36 @@ import React from 'react';
 import toast from 'react-hot-toast';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
+import './ContactMe.css'
 
 const ContactMe = () => {
     const handleContact = e => {
         e.preventDefault()
         emailjs.sendForm('mD.sorwaR4039', 'template_1368kvf', e.target, 'S4ou50DBMf_kQTmhl')
-        e.target.reset()
-        toast.success(`Mail send successfully.`)
+
+
+        const contact = {
+            name: e.target.name.value,
+            email: e.target.email.value,
+            subject: e.target.subject.value,
+            message: e.target.message.value,
+            sender: 'Portfolio',
+        }
+        fetch('https://sorwar-portfolio-server.vercel.app/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(contact)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                if (data.acknowledged) {
+                    toast.success(`Mail send successfully.`)
+                    e.target.reset()
+                }
+            })
 
     }
     return (

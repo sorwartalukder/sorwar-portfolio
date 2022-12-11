@@ -1,13 +1,14 @@
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { Link } from 'react-router-dom';
 
-const Card = ({ cardData }) => {
-    const { title, type, liveLink, clientLink, serverLink, img } = cardData;
+const Card = ({ project }) => {
+    const { _id, name, projectType, live, client, server, img } = project;
     return (
-        <div className="card max-w-[400px] h-full shadow-xl  bg-black">
+        <div className="card max-w-[400px] h-full w-full shadow-xl mx-auto  bg-black">
             <PhotoProvider >
                 <PhotoView src={img}>
-                    <img src={img} alt="Shoes" className="rounded-xl h-[300px]" />
+                    <img src={img} alt="Shoes" className=" h-[300px] " />
                 </PhotoView>
             </PhotoProvider>
             <figure>
@@ -15,33 +16,37 @@ const Card = ({ cardData }) => {
             </figure>
             <div className="card-body text-white ">
                 <div className='flex justify-between'>
-                    <h2 className="card-title text-2xl ">{title}</h2>
-                    <a href={liveLink}
+                    <h2 className="card-title text-2xl ">{name}</h2>
+                    <a href={live}
                         target='_blank'
                         rel="noreferrer"
                     >
                         <button className="bg-blue-700 hover:bg-purple-900 px-7 py-1">Live</button>
                     </a>
                 </div>
-                <p className='text-xl'>{type}</p>
+                <p className='text-xl'>{projectType}</p>
                 <div className="card-actions justify-between mt-5">
 
-                    <a href={clientLink}
+                    <a href={client}
                         target='_blank'
                         rel="noreferrer"
                     >
                         <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1">Client Code</button>
                     </a>
-                    <a href={serverLink}
+                    <a href={server}
                         target='_blank'
                         rel="noreferrer"
                     >
                         <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1">Server Code</button>
                     </a>
-
-
                 </div>
+
             </div>
+            <Link to={`/projects/${_id}`}>
+                <button
+                    className="bg-blue-700 hover:bg-purple-900 px-3 py-1 text-white block w-full"
+                >Details</button>
+            </Link>
         </div>
     );
 };

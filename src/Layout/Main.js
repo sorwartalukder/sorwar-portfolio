@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaDownload } from 'react-icons/fa';
 import { Link, Outlet } from 'react-router-dom';
 import profilePic from '../assets/Images/sorwar.png'
+import { AuthContext } from '../contexts/AuthProvider';
 import './Main.css'
 
 const Main = () => {
+    const { user } = useContext(AuthContext)
+    console.log(user)
     return (
         <div>
             <div className="navbar port-bg lg:w-[320Px]" >
@@ -32,20 +35,30 @@ const Main = () => {
                             </div>
                         </li>
 
-                        <li className='mt-40 mx-auto text-xl'>
+                        <li className='mt-28 mx-auto text-xl'>
                             <Link to='/'>Home</Link>
+                        </li>
+
+                        <li className='mx-auto text-xl'>
+                            <Link to='/projects'>Projects</Link>
+                        </li>
+                        <li className='mx-auto text-xl'>
+                            <Link to='/blogs'>Blogs</Link>
                         </li>
                         <li className='mx-auto text-xl'>
                             <Link to='/about'>About</Link>
                         </li>
                         <li className='mx-auto text-xl'>
-                            <Link to='/projects'>Projects</Link>
-                        </li>
-                        <li className='mx-auto text-xl'>
                             <Link to='/contact'>Contact</Link>
                         </li>
+                        {
+                            user?.email === 'mdsorwar4039@gmail.com' && <li className='mx-auto text-xl'>
+                                <Link to='/dashboard/add-project'>Dashboard</Link>
+                            </li>
+                        }
                         <li className='mx-auto text-xl'>
                             <a href="https://drive.google.com/u/0/uc?id=1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko&export=download"
+                                download='Resume'
                             >
                                 Download Resume <FaDownload />
                             </a>
