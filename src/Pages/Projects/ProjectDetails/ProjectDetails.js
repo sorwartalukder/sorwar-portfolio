@@ -7,7 +7,7 @@ const ProjectDetails = () => {
     const { name, projectType, live, client, server, points, gallery } = project;
     return (
         <div>
-            <div className=" max-w-[900px] mx-auto  py-10 px-6 md:px-10">
+            <div className=" max-w-[900px] mx-auto  py-10 mb-32 px-6 md:px-10">
                 <PhotoProvider>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 bg-black p-6 cursor-pointer'>
                         {
@@ -41,19 +41,19 @@ const ProjectDetails = () => {
                             target='_blank'
                             rel="noreferrer"
                         >
-                            <button className="bg-blue-700 hover:bg-purple-900 px-7 py-1">Live</button>
+                            <button className="bg-blue-700 hover:bg-purple-900 px-7 py-1 rounded">Live</button>
                         </a>
                         <a href={client}
                             target='_blank'
                             rel="noreferrer"
                         >
-                            <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1">Client Code</button>
+                            <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1 rounded">Client Code</button>
                         </a>
                         <a href={server}
                             target='_blank'
                             rel="noreferrer"
                         >
-                            <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1">Server Code</button>
+                            <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1 rounded">Server Code</button>
                         </a>
                     </div>
                 </div>

@@ -66,7 +66,7 @@ I am freedom loving person. I enjoy work. The only difference between me and tho
 <h1>My life Style</h1>
 <p align="center">
 <!-- 1 -->
-<img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/286176464_1634379513602063_4217768660859123218_n.jpg?stp=c34.0.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeF8Hrs2794J2-PUceW6Ur_5QL_SGohEJMVAv9IaiEQkxTUtCFgjNl34sFcJueihsvcet3iQlP0w7Zv-koxY9IE-&_nc_ohc=i_h7rHTFnjwAX_eTTsj&_nc_ht=scontent.fdac14-1.fna&oh=00_AfASG6bhoy8GbvuOa8EFwHySBSXg71vpxh8qw8cLFAzgOQ&oe=63AA936E"/>
+<img src="src/assets/life-style/sorwar-talukder-1.jpg"/>
 <!-- 2 -->
 <img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/271785877_1535676150139067_2775282492480090997_n.jpg?stp=c0.23.206.206a_dst-jpg_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeHx_HX_KECe1CuPEh41hjoG41azcMH-B4fjVrNwwf4Hh8FynQKUXblhAAL0o-_uHa850afuE0oVKozUzX3Nw4Xi&_nc_ohc=yVx0KQIjTjcAX8WU97S&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDg3tyn6ZwEwpFrJysQa7aLr9_X7fbApovFHNqhiNMg1w&oe=63AA54BA"/>
 <!-- 3 -->

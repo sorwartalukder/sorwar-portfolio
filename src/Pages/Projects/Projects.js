@@ -16,7 +16,7 @@ const Projects = () => {
         return <Loading />
     }
     return (
-        <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-5  mx-9 mb-10'>
+        <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-5  mx-2 lg:mx-9 mb-32 mt-5'>
             {
                 projects.map(project => <Card
                     key={project._id}

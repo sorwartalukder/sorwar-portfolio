@@ -3,50 +3,33 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
 
 const Card = ({ project }) => {
-    const { _id, name, projectType, live, client, server, img } = project;
+    const { _id, name, projectType, live, img } = project;
     return (
-        <div className="card max-w-[400px] h-full w-full shadow-xl mx-auto  bg-black">
+        <div className="card max-w-[400px] bg-base-100 border-[7px] shadow-xl h-full" >
             <PhotoProvider >
                 <PhotoView src={img}>
-                    <img src={img} alt="Shoes" className=" h-[300px] " />
+                    <figure><img className='w-full h-64' src={img} alt="Shoes" /></figure>
                 </PhotoView>
             </PhotoProvider>
-            <figure>
 
-            </figure>
-            <div className="card-body text-white ">
+            <div className="card-body">
                 <div className='flex justify-between'>
                     <h2 className="card-title text-2xl ">{name}</h2>
                     <a href={live}
                         target='_blank'
                         rel="noreferrer"
                     >
-                        <button className="bg-blue-700 hover:bg-purple-900 px-7 py-1 ">Live</button>
+                        <button className="bg-blue-700 hover:bg-purple-900 px-7 py-1 rounded">Live</button>
                     </a>
                 </div>
-                <p className='text-xl'>{projectType}</p>
-                <div className="card-actions justify-between mt-5">
-
-                    <a href={client}
-                        target='_blank'
-                        rel="noreferrer"
-                    >
-                        <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1">Client Code</button>
-                    </a>
-                    <a href={server}
-                        target='_blank'
-                        rel="noreferrer"
-                    >
-                        <button className="bg-blue-700 hover:bg-purple-900 px-3 py-1">Server Code</button>
-                    </a>
-                </div>
-
+                <Link to={`/projects/${_id}`}>
+                    <p>{projectType}</p>
+                    <div className="card-actions justify-between mt-5">
+                        <button className="badge badge-outline px-5 text-blue-500 hover:shadow-md hover:shadow-blue-500">Details</button>
+                    </div>
+                </Link>
             </div>
-            <Link to={`/projects/${_id}`}>
-                <button
-                    className="bg-blue-700 hover:bg-purple-900 px-3 py-1 text-white block w-full"
-                >Details</button>
-            </Link>
+
         </div>
     );
 };

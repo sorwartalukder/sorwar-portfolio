@@ -36,7 +36,7 @@ const ContactMe = () => {
 
     }
     return (
-        <div>
+        <div className='mb-32'>
             <h1 className='text-slate-200 text-5xl text-center my-6 font-semibold'>CONTACT ME</h1>
             <div className='xl:flex justify-center items-center mx-4'>
                 <form

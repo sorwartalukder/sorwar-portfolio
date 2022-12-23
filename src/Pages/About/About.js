@@ -5,7 +5,7 @@ import aboutPhoto from '../../assets/Images/sorwar-about.jpg'
 const About = () => {
     return (
         <section>
-            <div className="hero min-h-screen  mb-9 ">
+            <div className="hero min-h-screen  mb-32 ">
                 <div className="hero-content flex-col lg:flex-row">
                     <PhotoProvider >
                         <PhotoView src={aboutPhoto}>
@@ -42,7 +42,6 @@ const About = () => {
                         >
                             <button className="bg-blue-700 hover:bg-purple-900 text-white text-xl px-6 py-4">Download Resume</button>
                         </a>
-
                     </div>
                 </div>
             </div>

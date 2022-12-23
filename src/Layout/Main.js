@@ -1,13 +1,16 @@
 import React, { useContext } from 'react';
 import { FaDownload } from 'react-icons/fa';
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import profilePic from '../assets/Images/sorwar.png'
 import { AuthContext } from '../contexts/AuthProvider';
 import './Main.css'
 
 const Main = () => {
     const { user } = useContext(AuthContext)
-    console.log(user)
+    let activeClass = {
+        color: "blue",
+        background: "none",
+    };
     return (
         <div>
             <div className="navbar port-bg lg:w-[320Px]" >
@@ -36,24 +39,24 @@ const Main = () => {
                         </li>
 
                         <li className='mt-16  text-xl'>
-                            <Link className='block text-center' to='/'>Home</Link>
+                            <NavLink style={({ isActive }) => (isActive ? activeClass : undefined)} className='block text-center' to='/'>Home</NavLink>
                         </li>
 
                         <li className='text-xl'>
-                            <Link className='block text-center' to='/projects'>Projects</Link>
+                            <NavLink style={({ isActive }) => (isActive ? activeClass : undefined)} className='block text-center' to='/projects'>Projects</NavLink>
                         </li>
                         <li className='text-xl'>
-                            <Link className='block text-center' to='/blogs'>Blogs</Link>
+                            <NavLink style={({ isActive }) => (isActive ? activeClass : undefined)} className='block text-center' to='/blogs'>Blogs</NavLink>
                         </li>
                         <li className='text-xl'>
-                            <Link className='block text-center' to='/about'>About</Link>
+                            <NavLink style={({ isActive }) => (isActive ? activeClass : undefined)} className='block text-center' to='/about'>About</NavLink>
                         </li>
                         <li className='text-xl'>
-                            <Link className='block text-center' to='/contact'>Contact</Link>
+                            <NavLink style={({ isActive }) => (isActive ? activeClass : undefined)} className='block text-center' to='/contact'>Contact</NavLink>
                         </li>
                         {
                             user?.email === 'mdsorwar4039@gmail.com' && <li className=' text-xl'>
-                                <Link className='block text-center' to='/dashboard/add-project'>Dashboard</Link>
+                                <NavLink style={({ isActive }) => (isActive ? activeClass : undefined)} className='block text-center' to='/dashboard/add-project'>Dashboard</NavLink>
                             </li>
                         }
                         <li className='text-xl'>
