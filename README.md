@@ -43,7 +43,7 @@ I am freedom loving person. I enjoy work. The only difference between me and tho
 ⌨️ 𝘛𝘦𝘹𝘵 / 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱: +880 1742554039 <br />
 📞 𝑪𝒂𝒍𝒍 | 𝒎𝒐𝒃𝒊𝒍𝒆: +880 1742554039
 </p>
-
+<br />
 <!-- Reach out -->
 ## :mailbox: Reach me out
 <p align="center">
@@ -60,11 +60,13 @@ I am freedom loving person. I enjoy work. The only difference between me and tho
     <img src='https://raw.githubusercontent.com/sorwartalukder/sorwar-portfolio/main/src/assets/Images/Twitter.png'>
     </a>
 </p>
+<br />
+
 <!-- developer life Style -->
-## :gallery: My life Style
+<h1>My life Style</h1>
 <p align="center">
 
-<img src="https://media.licdn.com/dms/image/C5622AQEl3d4_HQ5T0A/feedshare-shrink_2048_1536/0/1671302913284?e=1674691200&v=beta&t=3yPLOzuWzTrUivdshBkHEnaMCAQVbNf4Bjz0ubMqnV0"/>
+<img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/286176464_1634379513602063_4217768660859123218_n.jpg?stp=c34.0.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeF8Hrs2794J2-PUceW6Ur_5QL_SGohEJMVAv9IaiEQkxTUtCFgjNl34sFcJueihsvcet3iQlP0w7Zv-koxY9IE-&_nc_ohc=i_h7rHTFnjwAX_eTTsj&_nc_ht=scontent.fdac14-1.fna&oh=00_AfASG6bhoy8GbvuOa8EFwHySBSXg71vpxh8qw8cLFAzgOQ&oe=63AA936E"/>
 
 <img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/271785877_1535676150139067_2775282492480090997_n.jpg?stp=c0.23.206.206a_dst-jpg_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeHx_HX_KECe1CuPEh41hjoG41azcMH-B4fjVrNwwf4Hh8FynQKUXblhAAL0o-_uHa850afuE0oVKozUzX3Nw4Xi&_nc_ohc=yVx0KQIjTjcAX8WU97S&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDg3tyn6ZwEwpFrJysQa7aLr9_X7fbApovFHNqhiNMg1w&oe=63AA54BA"/>
 
@@ -72,10 +74,13 @@ I am freedom loving person. I enjoy work. The only difference between me and tho
 
 <img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/306085973_1703280823378598_5975628285534719979_n.jpg?stp=c0.23.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeEsEkWPksEBUDzCrKNhLlHBCxirM6qlbS8LGKszqqVtLw7ATeuQY73m61sAZ0M04wVYsAqgCxkpi72jlVJNQ6Nv&_nc_ohc=_EjU8qQaSkoAX-2ptA8&tn=9GVJ3RR-fLRwwnRN&_nc_ht=scontent.fdac14-1.fna&oh=00_AfBbo0zAM-XiYjCOABnLKhoTkd_sCEygWt16BEBodMUvjw&oe=63A9A169"/>
 
+<img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/242308661_1452670881772928_7513731834055229748_n.jpg?stp=c34.0.206.206a_dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeE5eM8aJnpmR9C8NnHM7Q8IQ_dcpFxlm_hD91ykXGWb-Ho5ivHp8m-n_N23y-DW6FrqYycwhsreDrRzHkkgz-IB&_nc_ohc=yMFsIDGIFBgAX-viBx7&_nc_ht=scontent.fdac14-1.fna&oh=00_AfC8OvrM9H1T5f2p5JZcqy8dwEWbc5aUJXMjI19fOfXXeA&oe=63AA7028"/>
+
+<img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/292620605_1656651018041579_5430925924714404817_n.jpg?stp=c34.0.206.206a_dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeH-6R5f1oFncxnRJ4yF2qBOr4EAWazGAgevgQBZrMYCB7IuinkvQbFrh9hcOFDhDbpCv9h5uoiDmddtyp5Krnz_&_nc_ohc=nM_UrIdzboQAX84-rZI&tn=9GVJ3RR-fLRwwnRN&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCkPZpiAhdnNDm-3JXVykKsG6L5Ig5bN0rT1PFR-5mMbg&oe=63AA7A27"/>
+
 <img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/247996588_1491146277925388_851373479403740040_n.jpg?stp=dst-jpg_s206x206&_nc_cat=105&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeFuZeW3mlXT4ET963YA3mZ4u9G47QamxyG70bjtBqbHIcSXDKnVMnKHRquob6ZERFDHyPKg8v8XEWix_3cu8Pdf&_nc_ohc=Dl3EqWdIQO8AX9ZT85u&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDbRH1Rn_0kQ41xcT5KbAPsXipAcNTSCx_V-JFsQUfF7A&oe=63AA9C2D"/>
 
 <img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t1.6435-9/84456194_1030036620703025_5404512199307689984_n.jpg?stp=c34.0.206.206a_dst-jpg_p206x206&_nc_cat=105&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeHhvGFcMd5K6gB64xnYYr1vMIe3y_Z_o18wh7fL9n-jX6jAVio6sN8ARxLv0CK1RJ_QRyTDkoP8S8E1dv0439GB&_nc_ohc=x389z4rDUEgAX_FypD7&_nc_ht=scontent.fdac14-1.fna&oh=00_AfB7kvaBgxowErWf99iOx-U4PMHuV3QZDx3IG39grCuhaw&oe=63CCCDE5"/>
-<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/Bootsrap.png"/>
 
 <img src="https://scontent.fdac14-1.fna.fbcdn.net/v/t1.6435-9/64684268_843814022658620_3588009129253273600_n.jpg?stp=c119.0.206.206a_dst-jpg_p206x206&_nc_cat=111&ccb=1-7&_nc_sid=da31f3&_nc_eui2=AeHIA8LQ4DEK9kKZTiBLyLpKt_Pol_6vR1i38-iX_q9HWDAnBVvXq96WSvqA4CK8qiFByrINtZA5U_9EXrlgd9gU&_nc_ohc=6SpFpASpEoAAX9fking&_nc_ht=scontent.fdac14-1.fna&oh=00_AfAUQ6Qlsz3tnj5Nlm2vclMWhry2RxMDX_nxJkaxOssqcw&oe=63CCDBB9"/>
 
