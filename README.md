@@ -6,6 +6,23 @@
 <a href="https://drive.google.com/file/d/1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko/view?usp=share_link">Resume</a>
 
 <h1 align="center">Hi 👋, I'm Sorwar Talukder</h1>
+<img src='https://media.licdn.com/dms/image/D5616AQGHqdWhWpnNGg/profile-displaybackgroundimage-shrink_350_1400/0/1670615785691?e=1677110400&v=beta&t=YvnKLYpduWdeyyGRLp3oM9cZ-iC9V_A0p1DirIypse4' alt="Sorwar Talukder cover photo">
+
+<!-- skills -->
+## :computer: Technologies that I know
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/react.png"/>
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/JavaScript.png"/>
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/express.png"/>
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/node.png"/>
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/tailwind.png"/>
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/Bootsrap.png"/>
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/css.png"/>
+<img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/HTML.png"/>
+</p>
+
+<h1>About Me</h1>
 <p>MERN Stack Developer || Front-end web developer React.js based
 I am Experienced with React.js, JavaScript, Express.js , MongoDB
 <br />
@@ -27,19 +44,20 @@ I am freedom loving person. I enjoy work. The only difference between me and tho
 📞 𝑪𝒂𝒍𝒍 | 𝒎𝒐𝒃𝒊𝒍𝒆: +880 1742554039
 </p>
 
+<!-- Reach out -->
 ## :mailbox: Reach me out
 <p align="center">
     <!-- linkedIN -->
     <a target="_blank" href="https://www.linkedin.com/in/sorwar-talukder/">
-    <img src='src/assets/Images/Linkedin.png'>
+    <img src='https://raw.githubusercontent.com/sorwartalukder/sorwar-portfolio/main/src/assets/Images/Linkedin.png'>
     </a>
     <!-- facebook -->
     <a target="_blank" href="https://www.facebook.com/sorwartalukderr">
-    <img src='src/assets/Images/Facebook.png'>
+    <img src='https://raw.githubusercontent.com/sorwartalukder/sorwar-portfolio/main/src/assets/Images/Facebook.png'>
     </a>
     <!-- twitter -->
     <a target="_blank" href="https://twitter.com/sorwar_talukder">
-    <img src='src/assets/Images/Twitter.png'>
+    <img src='https://raw.githubusercontent.com/sorwartalukder/sorwar-portfolio/main/src/assets/Images/Twitter.png'>
     </a>
 </p>
 <a href=""></a>
