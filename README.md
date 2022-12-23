@@ -9,13 +9,18 @@
 <p>MERN Stack Developer || Front-end web developer React.js based
 I am Experienced with React.js, JavaScript, Express.js , MongoDB
 <br />
+<br />
 I am a programmer and I am happy with this job. Because I like technology . The use of technology is increasing in the world. I want to make technology easy to reach people.
+<br />
 <br />
 I am expert with JavaScript, React.js, CSS, Bootstrap, React Bootstrap, Tailwind, DaisyUI, HTML, Express.js, Firebase, MongoDB and I used many tools (Github, Netlify, Canva, Figma, React Icons, React Router, React Toast, React Query, React Photo View, React Hook Form,JWT, Context API etc).
 <br />
+<br />
 I have worked on many of my projects. Every project is different and works Front-End, Backend and design done by me. I love productive work and try to concentrate as long as I work.
 <br />
+<br />
 I am freedom loving person. I enjoy work. The only difference between me and those who upgrade the world is skill. I will work to improve myself. I dream of giving something new to the world one day.
+<br />
 <br />
 📧 mdsorwar4039@gmail.com <br />
 ⌨️ 𝘛𝘦𝘹𝘵 / 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱: +880 1742554039 <br />
