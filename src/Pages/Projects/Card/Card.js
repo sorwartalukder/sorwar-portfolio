@@ -29,7 +29,6 @@ const Card = ({ project }) => {
                     </div>
                 </Link>
             </div>
-
         </div>
     );
 };

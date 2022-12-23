@@ -1,12 +1,13 @@
 <h1>Important Link</h1>
-<a href="https://sorwar-portfolio.web.app/">Portfolio</a> 
+<a href="https://sorwar-portfolio.web.app/">Portfolio Live Link</a> 
 <br />
-<a href="https://github.com/sorwartalukder/portfoilo-server">Portfolio Server</a>
-<br />
-<a href="https://drive.google.com/file/d/1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko/view?usp=share_link">Resume</a>
+<a href="https://drive.google.com/file/d/1_P_F6B3k6TGiXZJTBDMcrGuK4G_xPKko/view?usp=share_link">Resume Download</a>
+
+<!-- developer profile -->
+<h1><strong>Developer Profile</strong></h1>
 
 <h1 align="center">Hi 👋, I'm Sorwar Talukder</h1>
-<img src='https://media.licdn.com/dms/image/D5616AQGHqdWhWpnNGg/profile-displaybackgroundimage-shrink_350_1400/0/1670615785691?e=1677110400&v=beta&t=YvnKLYpduWdeyyGRLp3oM9cZ-iC9V_A0p1DirIypse4' alt="Sorwar Talukder cover photo">
+<img src='src/assets/Images/sorwar-talukder-cover.jpeg' alt="Sorwar Talukder cover photo">
 
 <!-- skills -->
 ## :computer: Technologies that I know
@@ -22,9 +23,10 @@
 <img src="https://raw.githubusercontent.com/sorwartalukder/sorwartalukder/main/images/icons/HTML.png"/>
 </p>
 
+<!-- about -->
 <h1>About Me</h1>
 <p>MERN Stack Developer || Front-end web developer React.js based
-I am Experienced with React.js, JavaScript, Express.js , MongoDB
+I am Experienced with React.js, JavaScript, Express.js and MongoDB
 <br />
 <br />
 I am a programmer and I am happy with this job. Because I like technology . The use of technology is increasing in the world. I want to make technology easy to reach people.
@@ -44,8 +46,12 @@ I am freedom loving person. I enjoy work. The only difference between me and tho
 📞 𝑪𝒂𝒍𝒍 | 𝒎𝒐𝒃𝒊𝒍𝒆: +880 1742554039
 </p>
 <br />
+
+
 <!-- Reach out -->
+
 ## :mailbox: Reach me out
+
 <p align="center">
     <!-- linkedIN -->
     <a target="_blank" href="https://www.linkedin.com/in/sorwar-talukder/">
@@ -95,9 +101,6 @@ I am freedom loving person. I enjoy work. The only difference between me and tho
 <img src="src/assets/life-style/sorwar-talukder-14.jpg"/>
 <!-- 15 -->
 <img src="src/assets/life-style/sorwar-talukder-15.jpg"/>
-
-
 </p>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
+<p align="center"> Last update: Dec 23, 2022</p>
+
